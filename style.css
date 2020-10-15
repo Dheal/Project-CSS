@@ -1,0 +1,57 @@
+body, h1, h2, p, a,td, span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+.wrap {
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 800px;
+    color:black;
+    margin: 20px auto;
+    padding:15px;
+}
+.icon {
+    padding:5px;
+    text-align: center;
+    
+}
+span {
+    color: maroon;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
